@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 html {
@@ -92,7 +93,16 @@ html {
 }
 
 .section-1-content {
-    position: fixed;
-    bottom: 22em;
-    width: 50%;
+    /* position: fixed; */
+    /* bottom: 22em; */
+    width: 60%;
+    padding-top: 12em;
+}
+
+.section-1-title {
+    font-size: large;
+}
+
+.section-1-paragraph {
+    font-size: small;
 }
