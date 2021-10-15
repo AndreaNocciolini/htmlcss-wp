@@ -25,13 +25,11 @@ html {
 .section-1 {
     margin-bottom: 15px;
     height: 20em;
-    background-color: #e1d67a;
 }
 
 .section-2 {
     margin-bottom: 5px;
-    height: 24em;
-    background-color: #0086ff;
+    /* height: 24em; */
 }
 
 .footer {
@@ -47,7 +45,7 @@ html {
 }
 
 .section-2-header {
-    height: 3em;
+    /* height: 3em; */
 }
 
 
@@ -59,23 +57,20 @@ html {
 [class^="column"] {
     height: 19em;
 }
-.column-mid {
-    width: calc(50% - 20px);
-    margin: 15px 0;
-}
 
 .column-sx {
     width: 25%;
     margin: 15px 10px 15px 0;
 }
 
+.column-mid {
+    width: calc(50% - 20px);
+    margin: 15px 0;
+}
+
 .column-dx  {
     width: 25%;
     margin: 15px 0 15px 10px;
-}
-
-.bg-light-blue {
-    background-color: #abcfe7;
 }
 
 .logo {
@@ -96,8 +91,8 @@ nav > a {
 
 .section-1-background {
     background-image: url(../img/banner.jpg);
+    width: 100%;
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
     border-radius: 10px;
 }
@@ -111,13 +106,13 @@ nav > a {
     color: #ffffff;
 }
 
-.transparency {
+.transparency-section-1 {
     background-color: rgba(0, 0, 0, 0.5);
     height: 20em;
     border-radius: 10px;
 }
 
-.section-1-title {
+.title-large {
     font-size: large;
 }
 
@@ -129,3 +124,29 @@ nav > a {
     font-size: small;
 }
 
+.column-common-background{
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 14em;
+    background-size: auto 100%;
+    border-radius: 10px;
+}
+
+.column-sx-background {
+    background-image: url(../img/img-1.jpg);
+}
+
+.column-dx-background {
+    background-image: url(../img/img-3.jpg);
+}
+
+
+.column-mid-background {
+    background-image: url(../img/banner-2.jpg);
+}
+
+.transparency-section-2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 14em;
+    border-radius: 10px;
+}
