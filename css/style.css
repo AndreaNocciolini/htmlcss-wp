@@ -49,7 +49,7 @@ html {
 }
 
 [class^="column"] {
-    height: 19em;
+    /* height: 19em; */
 }
 
 .column-sx {
@@ -128,11 +128,14 @@ ul#menu li {
 
 /* column settings */
 .column-common-background{
+    border-radius: 10px;
+}
+
+.column-img {
     background-position: top;
     background-repeat: no-repeat;
-    height: 14em;
     background-size: auto 100%;
-    border-radius: 10px;
+    height: 14em;
 }
 
 .column-sx-background {
@@ -150,7 +153,7 @@ ul#menu li {
 
 .transparency-section-2 {
     background-color: rgba(0, 0, 0, 0.5);
-    height: 14em;
+    height: 100%;
     border-radius: 10px;
 }
 
