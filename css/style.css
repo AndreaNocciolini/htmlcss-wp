@@ -17,7 +17,7 @@ html {
 
 .header {
     height: 4em;
-    background-color: #e579e6;
+    /* background-color: #e579e6; */
     margin: 10px auto 15px;
 }
 
@@ -77,3 +77,8 @@ html {
     background-color: #abcfe7;
 }
 
+.logo {
+    height: 4em;
+    border-right: 1px solid lightgray;
+    padding-right: 1em;
+}
