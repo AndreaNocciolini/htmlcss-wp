@@ -92,4 +92,7 @@ html {
 }
 
 .section-1-content {
+    position: fixed;
+    bottom: 22em;
+    width: 50%;
 }
