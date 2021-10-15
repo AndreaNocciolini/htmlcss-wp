@@ -29,13 +29,11 @@ html {
 
 .section-2 {
     margin-bottom: 5px;
-    /* height: 24em; */
+    height: 35em;
 }
 
 .footer {
-    height: 2em;
-    background-color: #8801fe;
-    margin-bottom: 10px
+    text-align: center;
 }
 
 .clearfix::after {
@@ -43,11 +41,6 @@ html {
     display: table;
     clear: both;
 }
-
-.section-2-header {
-    /* height: 3em; */
-}
-
 
 /* Colonne */
 .float{
@@ -98,8 +91,6 @@ nav > a {
 }
 
 .section-1-content {
-    /* position: fixed; */
-    /* bottom: 22em; */
     width: 60%;
     padding-top: 12em;
     padding-left: 2em;
@@ -117,13 +108,18 @@ nav > a {
 }
 
 .section-2-title {
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 .paragraph {
     font-size: small;
 }
 
+.paragraph-color {
+    color: #c2c2c2;
+}
+
+/* column settings */
 .column-common-background{
     background-position: top;
     background-repeat: no-repeat;
@@ -149,4 +145,8 @@ nav > a {
     background-color: rgba(0, 0, 0, 0.5);
     height: 14em;
     border-radius: 10px;
+}
+
+.heart {
+    color: red;
 }
