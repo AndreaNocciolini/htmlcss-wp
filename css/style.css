@@ -82,3 +82,14 @@ html {
     border-right: 1px solid lightgray;
     padding-right: 1em;
 }
+
+.section-1 {
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.section-1-content {
+}
